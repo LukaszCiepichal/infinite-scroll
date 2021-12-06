@@ -95,7 +95,7 @@ const scrollToEndOfPage = () => {
 
     if (sumScrollTopClientHeight >= scrollHeight) {
 
-        endOfThePage + 1;
+        endOfThePage++;
         
         console.log(`Przescrollowano do końca strony: ${endOfThePage}`)
         
